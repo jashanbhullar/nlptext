@@ -1,7 +1,13 @@
 #include <stdio.h>
+#include <math.h>
+#include "operator.h"
+#include "logical.h"
+#include "basic.h"
 
-int
-special(int a){
+void
+special(int float){
+  printf("%s\n","Number you entered has something special !!");
+
 
 
 }
@@ -9,9 +15,9 @@ special(int a){
 void
 feedback(){
   printf ("%s%s%s%s",
-  "Your feedback is valuable for us.Thank you for providing feedback.\n",
-  "You can mail your feedback to abhishek_verma@hotmail.com \n",
-  "If you want to contribute to the project Github link is provided\n",
+  "Thank you for providing your valuable feedback. \n",
+  "You can send me mail at abhishek_verma@hotmail.com \n",
+  "You can contribute to the project using Github.\n",
   "Github :https://github.com/hell-sing/nlptext\n\n");
 }
 
@@ -21,11 +27,12 @@ about(){
   "Abhishek Verma : abhishek_verma@hotmail.com\n",
   "Team members: Jashan Bullar, Harshit Kashyapy\n",
   "Project is developed under the vision of Mr.Srikant\n",
-  "Assistant Professor UPES-Dehradun\n",
+  "University of Petroleum & Energy Studies - Dehradun\n",
   "Github :https://github.com/hell-sing/nlptext\n\n");
 }
 
 void
 help(){
-  printf("%s","Some use full commands:\n");
+  printf("%s","some standard input is defined below :\n");
+
 }
