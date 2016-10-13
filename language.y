@@ -41,3 +41,5 @@ extra       : | special
               ;
 
 operator    : |
+
+%
