@@ -11,7 +11,8 @@ This project focuses on the implementation of Natural Language Processing - NLP 
 ```sh
 $ sudo apt update     
 $ sudo apt install flex   
-$ sudo apt upgrade  ```
+$ sudo apt upgrade
+```
 
 ### To install bison run these commands in terminal :
 ```sh
